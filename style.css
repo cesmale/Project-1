@@ -1,96 +1,409 @@
+@font-face {
+    font-family: 'quicksand';
+    src: url('quicksand/Quicksand-Light.otf');
+}
+@media only screen and (min-width : 320px) and (max-width : 720px){ 	
+	header {
+		background-image: url("Images/header.jpg");
+		background-repeat: repeat-x;
+		background-size: 95%;
+		color:#FFFFFF;
+		font-size: 5em;
+		margin: 0%;
+		padding: 0%;
+		border: 0%;
+		font-family: "quicksand"; 
+	}
+	button{
+	background: #FFFFFF; 
+	border-radius: 5%;
+	color: #040404;
+	}
 
-header {
-	background-image: url("file:///Users/Claire/Documents/RED%20Academy/Project%201/Images/header.jpg");
-	background-repeat: repeat-x;
-	background-size: 10%;
-	color:white;
-	font-size: 100px;
-}
-nav {
-	margin: 10px;
-	color: black;
-	padding: 0px;
-	background-color: #eee;
-}
-ul{
-	list-style-type: none;
-	padding-left: 0;
-	border: 0;
-	margin: 0;
-}
-li{
-	position: relative;
-	display: inline-block;
-	margin: 5px;
-	padding: 5px;
-}
-h1 {
-	clear: all;
-}
-#home {
-	margin:10px;
-	padding: 10px; 
-}
-#road{
-	margin:10px;
-	padding: 10px; 
-}
-#gallery{
-	padding: 10px; 
-}
-body
-{
-	position: relative;
-	text-align: center;
-	margin-left: 10px;
-	margin-right: 10px;
-	padding: 0;
-	color: black;
-	background-color: #eee;
-	font: 1em/1.2 "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-h2,h3 {
-text-align: left;
-margin-left: 30px;
-}
-h4,h5 {
-	display: inline-block;
-	font-size: 25px;
-	text-align: left;
-	margin: 30px;
-	padding: 0px;
+	button:hover {
+   background: #6C1616;
+	}
+	nav {
+		margin: 0%;
+		color: #040404;
+		padding: 0%;
+		background-color: #6C1616;
+	}
+	nav ul {
+		list-style-type: none;
+		padding-left: 0%;
+		margin: 0% auto;
+	 	padding-right: 1%;
+	 	overflow: hidden;
+		border: 0%;
+		margin: 0%;
+		clear: left;
 
-}
-img {
-	background-position: center;
-	float: right;
-	margin: 20px;
-	position: relative;
-}
-div {
+	}
+	nav li a {
+		display: inline-block;
+		text-align: center;
+		margin: 5%;
+		padding: 5%;
+		color: #fff;
+		font-family: "quicksand"; 
+	}
+	h1 {
+		clear: all;
+	}
+	#riders {
+		float:left;
+		margin-left: 10%;
+	}
+	#home {
+		position: relative;
+		margin:.5%;
+		padding: .5%; 
+		color: black; 
+	}
+	#road{
+		position: relative;
+		margin:.5%;
+		padding: .5%; 
+		color:black;
+
+	}
+	#aboutus {
+		position: relative;
+		margin:.5%;
+		padding: .5%; 
+		color:black;
+	}
+	#contact {
+		position: relative;
+		margin:.5%;
+		padding: .5%; 
+		color:black;
+	}
+	body
+	{
+		position: relative;
+		text-align: center;
+		margin-left: .5%;
+		margin-right: .5%;
+		padding: 0%;
+		color: black;
+		background-color: #eee;
+		font-family: "quicksand"; 
+	}
+	h2,h3 {
 	text-align: left;
-	height: 300px;
+	margin-left: 2%;
+	}
+	h4,h5 {
+		display: inline-block;
+		font-size: 1.5em;
+		text-align: left;
+		margin: 2%;
+		padding: 0%;
+
+	}
+	img {
+		background-position: center;
+		float: right;
+		margin: 1%;
+		position: relative;
+		background-size: 20%;
+	}
+	div {
+		text-align: left;
+		height: 20%;
+	}
+	article {
+		text-align: left;
+		float: left;
+	}
+	p {
+
+		float: 0%;
+		display: block;
+		text-align: left;
+		background: #eee;
+		font-size: 1.1em;
+		background-size: .8%;
+		margin: 1%;
+		padding: 1%;	
+	}
+	iframe {
+		float: left;
+		margin: 1%;
+	}
+	footer {
+		clear: all;
+	}	
 }
-article {
+@media only screen and (min-width : 720px) and (max-width : 1024px){ 
+	header {
+		background-image: url("Images/header.jpg");
+		background-repeat: repeat-x;
+		background-size: 50%;
+		color:#FFFFFF;
+		font-size: 7em;
+		margin: 0%;
+		padding: 0%;
+		border: 0%;
+
+	}
+	button{
+	background: #FFFFFF; 
+	border-radius: 5%;
+	color: #040404
+	}
+	button:hover {
+   background: #6C1616;
+	}
+	nav {
+		margin: 0%;
+		color: #040404;
+		padding: 0%;
+		background-color: #6C1616;
+	}
+	nav ul {
+		list-style-type: none;
+		padding-left: 0%;
+		margin: 0% auto;
+	 	padding-right: 1%;
+	 	overflow: hidden;
+		border: 0%;
+		margin: 0%;
+		clear: left;
+
+	}
+	nav li a {
+		display: inline-block;
+		text-align: center;
+		margin: 5%;
+		padding: 5%;
+		color: #fff;
+		font-family: "quicksand"; 
+	}
+
+	h1 {
+		clear: all;
+	}
+	#riders {
+		float:left;
+		margin-left: 30%;
+	}
+	#home {
+		position: relative;
+		margin:.5%;
+		padding: .5%; 
+		color: black; 
+	}
+	#road{
+		position: relative;
+		margin:.5%;
+		padding: .5%; 
+		color:black;
+
+	}
+	#aboutus {
+		position: relative;
+		margin:.5%;
+		padding: .5%; 
+		color:black;
+	}
+	#contact {
+		position: relative;
+		margin:.5%;
+		padding: .5%; 
+		color:black;
+	}
+	body
+	{
+		position: relative;
+		text-align: center;
+		margin-left: .5%;
+		margin-right: .5%;
+		padding: 0%;
+		color: black;
+		background-color: #eee;
+		font-family: "quicksand"; 
+	}
+	h2,h3 {
 	text-align: left;
-	float: left;
+	margin-left: 2%;
+	}
+	h4,h5 {
+		display: inline-block;
+		font-size: 1.5em;
+		text-align: left;
+		margin: 2%;
+		padding: 0%;
+
+	}
+	img {
+		background-position: center;
+		float: right;
+		margin: 1%;
+		position: relative;
+		background-size: 20%;
+	}
+	div {
+		text-align: left;
+		height: 20%;
+	}
+	article {
+		text-align: left;
+		float: left;
+	}
+	p {
+		float: 0%;
+		display: block;
+		text-align: left;
+		background: #eee;
+		font-size: 1.1em;
+		background-size: .8%;
+		margin: 1%;
+		padding: 1%;	
+	}
+	iframe {
+		float: left;
+		margin: 1%;
+	}
+	footer {
+		clear: all;
+	}
 }
-p {
-	float: 0;
-	display: block;
+@media only screen and (min-width : 1024px) and (max-width : 1280px){ 
+	header {
+		background-image: url("Images/header.jpg");
+		background-repeat: repeat-x;
+		background-size: 20%;
+		color:#FFFFFF;
+		font-size: 7em;
+		margin: 0%;
+		padding: 0%;
+		border: 0%;
+	}
+	button{
+	background: #FFFFFF; 
+	border-radius: 5%;
+	color: #040404
+	}
+
+	button:hover {
+   background: #6C1616;
+	}
+	nav {
+		margin: 0%;
+		color: #040404;
+		padding: 0%;
+		background-color: #6C1616;
+	}
+	nav ul {
+		list-style-type: none;
+		padding-left: 0%;
+		margin: 0% auto;
+	 	padding-right: 1%;
+	 	overflow: hidden;
+		border: 0%;
+		margin: 0%;
+		clear: left;
+
+	}
+	nav li a {
+		display: inline-block;
+		text-align: center;
+		margin: 5%;
+		padding: 5%;
+		color: #fff;
+		font-family: "quicksand"; 
+	}
+
+	h1 {
+		clear: all;
+	}
+	#riders {
+		float:left;
+		margin-left: 37%;
+	}
+	#home {
+		position: relative;
+		margin:.5%;
+		padding: .5%; 
+		color: black; 
+	}
+	#road{
+		position: relative;
+		margin:.5%;
+		padding: .5%; 
+		color:black;
+
+	}
+	#aboutus {
+		position: relative;
+		margin:.5%;
+		padding: .5%; 
+		color:black;
+	}
+	#contact {
+		position: relative;
+		margin:.5%;
+		padding: .5%; 
+		color:black;
+	}
+	body
+	{
+		position: relative;
+		text-align: center;
+		margin-left: .5%;
+		margin-right: .5%;
+		padding: 0%;
+		color: black;
+		background-color: #eee;
+		font-family: "quicksand"; 
+	}
+	h2,h3 {
 	text-align: left;
-	background: #eee;
-	font-size: 18px;
-	background-size: 18px;
-	margin: 20px;
-	padding: 20px;	
-}
-iframe {
-	float: left;
-	margin: 20px;
-}
-footer {
-	clear: all;
+	margin-left: 2%;
+	}
+	h4,h5 {
+		display: inline-block;
+		font-size: 1.5em;
+		text-align: left;
+		margin: 2%;
+		padding: 0%;
+
+	}
+	img {
+		background-position: center;
+		float: right;
+		background-size: 20%;
+		margin: 1%;
+		position: relative;
+	}
+	div {
+		text-align: left;
+		height: 20%;
+	}
+	article {
+		text-align: left;
+		float: left;
+	}
+	p {
+		float: 0%;	
+		display: block;
+		text-align: left;
+		background: #eee;
+		font-size: 1.1em;
+		background-size: .8%;
+		margin: 1%;
+		padding: 1%;	
+	}
+	iframe {
+		float: left;
+		margin: 1%;
+	}
+	footer {
+		clear: all;
+	}
 }
 
 
